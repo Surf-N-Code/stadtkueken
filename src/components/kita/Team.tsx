@@ -40,6 +40,13 @@ export const KitaTeam = ({
                   src={teamMember.imageUrl}
                   alt={teamMember.name}
                   className="w-64 h-64 rounded-full mx-auto lg:mx-0 object-cover shadow-lg"
+                  aria-label={teamMember.name}
+                  aria-describedby={teamMember.name}
+                  aria-expanded={false}
+                  aria-pressed={false}
+                  aria-controls="team-member"
+                  aria-live="polite"
+                  aria-busy={false}
                 />
               </div>
             </div>
@@ -56,6 +63,13 @@ export const KitaTeam = ({
                 <a 
                   href={`tel:${teamMember.phoneNumber}`}
                   className="flex items-center justify-center lg:justify-start space-x-3 text-stadtkueken-brown hover:text-stadtkueken-orange transition-colors"
+                  aria-label={`Telefon ${teamMember.name}`}
+                  aria-describedby={`Telefon ${teamMember.name}`}
+                  aria-expanded={false}
+                  aria-pressed={false}
+                  aria-controls="team-member"
+                  aria-live="polite"
+                  aria-busy={false}
                 >
                   <Phone className="h-5 w-5" />
                   <span className="text-lg">{teamMember.phoneNumber}</span>
@@ -63,6 +77,13 @@ export const KitaTeam = ({
                 <a 
                   href={`mailto:${teamMember.email}`}
                   className="flex items-center justify-center lg:justify-start space-x-3 text-stadtkueken-brown hover:text-stadtkueken-orange transition-colors"
+                  aria-label={`Email ${teamMember.name}`}
+                  aria-describedby={`Email ${teamMember.name}`}
+                  aria-expanded={false}
+                  aria-pressed={false}
+                  aria-controls="team-member"
+                  aria-live="polite"
+                  aria-busy={false}
                 >
                   <Mail className="h-5 w-5" />
                   <span>{teamMember.email}</span>

@@ -61,12 +61,26 @@ export const KitaGallery = ({
             <button
               onClick={prevImage}
               className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-3 transition-all duration-300 hover:scale-110"
+              aria-label="Vorheriges Bild"
+              aria-describedby="Vorheriges Bild"
+              aria-expanded={false}
+              aria-pressed={false}
+              aria-controls="gallery-images"
+              aria-live="polite"
+              aria-busy={false}
             >
               <ChevronLeft className="h-6 w-6 text-stadtkueken-brown" />
             </button>
             <button
               onClick={nextImage}
               className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-3 transition-all duration-300 hover:scale-110"
+              aria-label="Nächstes Bild"
+              aria-describedby="Nächstes Bild"
+              aria-expanded={false}
+              aria-pressed={false}
+              aria-controls="gallery-images"
+              aria-live="polite"
+              aria-busy={false}
             >
               <ChevronRight className="h-6 w-6 text-stadtkueken-brown" />
             </button>
@@ -83,6 +97,13 @@ export const KitaGallery = ({
                     ? 'bg-stadtkueken-orange scale-125' 
                     : 'bg-gray-300 hover:bg-gray-400'
                 }`}
+                aria-label={`Bild ${index + 1} von ${images.length}`}
+                aria-describedby={`Bild ${index + 1} von ${images.length}`}
+                aria-expanded={false}
+                aria-pressed={false}
+                aria-controls="gallery-images"
+                aria-live="polite"
+                aria-busy={false}
               />
             ))}
           </div>

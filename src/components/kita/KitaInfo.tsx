@@ -74,6 +74,13 @@ export const KitaInfo = ({
               src={imageUrl}
               alt={imageAlt}
               className="w-full h-64 object-cover rounded-2xl shadow-lg"
+              aria-label={imageAlt}
+              aria-describedby={imageAlt}
+              aria-expanded={false}
+              aria-pressed={false}
+              aria-controls="gallery-images"
+              aria-live="polite"
+              aria-busy={false}
             />
           </div>
         </div>
