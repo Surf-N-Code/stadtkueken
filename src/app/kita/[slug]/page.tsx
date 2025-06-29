@@ -1,9 +1,21 @@
-import { KitaPage } from "@/components/kita/KitaPage";
-import { getKitaData } from "@/data/kitas";
+import { KitaPage as KitaPageComponent } from "@/components/kita/KitaPage";
+import { getKitaData, getAllKitaIds } from "@/data/kitas";
 import type { Metadata } from "next";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const kitaData = getKitaData("lohbekpark");
+export async function generateStaticParams() {
+  const kitaIds = getAllKitaIds();
+  
+  return kitaIds.map((id) => ({
+    slug: id,
+  }));
+}
+
+export async function generateMetadata({ 
+  params 
+}: { 
+  params: { slug: string } 
+}): Promise<Metadata> {
+  const kitaData = getKitaData(params.slug);
   
   if (!kitaData) {
     return {
@@ -41,12 +53,16 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function KitaLohbekparkPage() {
-  const kitaData = getKitaData("lohbekpark");
+export default function KitaPage({ 
+  params 
+}: { 
+  params: { slug: string } 
+}) {
+  const kitaData = getKitaData(params.slug);
   
   if (!kitaData) {
     return <div>Kita not found</div>;
   }
 
-  return <KitaPage kitaData={kitaData} />;
+  return <KitaPageComponent kitaData={kitaData} />;
 } 

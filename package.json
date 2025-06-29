@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-kita-pages": "node scripts/generate-kita-pages.js"
   },
   "dependencies": {
     "react": "^19.0.0",

@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     description: "Naturnahe Betreuung für 65 Kinder in Hamburg-Lokstedt. Achtsamkeit, gesunde Ernährung & Partizipation. Jetzt Kitaplatz anfragen!",
     images: [
       {
-        url: "https://stadtkueken.de/wp-content/uploads/240130_Lohbekpark_F.jpg",
-        width: 1200,
-        height: 630,
+        url: "https://stadtkueken.de/wp-content/uploads/Favicon-150x150.png",
+        width: 600,
+        height: 600,
         alt: "Kita Lohbekpark Hamburg-Lokstedt",
       },
     ],

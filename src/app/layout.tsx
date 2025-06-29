@@ -1,46 +1,55 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-inter",
-});
-
 export const metadata: Metadata = {
-  title: "Kita Lohbekpark Hamburg-Lokstedt | Stadtküken Natur-Kita | Achtsamkeit & Natur",
-  description: "Kita Lohbekpark in Hamburg-Lokstedt: Naturnahe Betreuung für 65 Kinder (10 Monate - 6 Jahre). Achtsamkeit, gesunde Ernährung & Partizipation. Jetzt Kitaplatz anfragen! ☎ 040/3289012-18",
-  keywords: "Kita Lohbekpark, Kita Hamburg Lokstedt, Natur-Kita Hamburg, Stadtküken, Kitaplatz Hamburg, Achtsamkeit Kinder, Naturpädagogik, Kita Gutschein Hamburg, Kinderbetreuung Lokstedt, Lohkoppelweg",
+  /* -------- Basis -------- */
+  title:
+    "Stadtküken Natur-Kitas in Hamburg | Achtsamkeit · Naturpädagogik · Gesunde Ernährung",
+  description:
+    "Stadtküken Natur-Kitas: mehrere Standorte in ganz Hamburg. Naturnahe Betreuung (10 Monate – 6 Jahre), achtsame Pädagogik, eigener Kita-Acker & überwiegend Bio-Verpflegung. Kita-Gutschein willkommen – jetzt Kitaplatz finden!",
+  keywords:
+    "Stadtküken Natur-Kita, Natur-Kita Hamburg, Kita Hamburg, Kitaplatz Hamburg, Kita-Gutschein Hamburg, Achtsamkeit Kinder, Naturpädagogik, SunPass Kita, Kita Wandsbek, Kita Lokstedt, Kita Blankenese, Kita Groß Borstel, Kita Treudelberg, Kita Neugraben-Fischbek, Kinderbetreuung Hamburg",
   authors: [{ name: "Stadtküken Natur-Kita" }],
   robots: "index, follow",
+
+  /* -------- Open Graph -------- */
   openGraph: {
     type: "website",
-    url: "https://stadtkueken.de/kita-lohbekpark",
-    title: "Kita Lohbekpark Hamburg-Lokstedt | Stadtküken Natur-Kita",
-    description: "Naturnahe Betreuung für 65 Kinder in Hamburg-Lokstedt. Achtsamkeit, gesunde Ernährung & Partizipation. Jetzt Kitaplatz anfragen!",
+    url: "https://stadtkueken.de",
+    title:
+      "Stadtküken Natur-Kitas in Hamburg | Achtsamkeit & Natur für Kinder",
+    description:
+      "Mehrere Standorte in Hamburg – liebevolle, naturnahe Betreuung, Bio-Essen, partizipative Pädagogik & eigener Gemüseacker.",
     images: [
       {
-        url: "https://stadtkueken.de/wp-content/uploads/240130_Lohbekpark_F.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Kita Lohbekpark Hamburg-Lokstedt",
+        url: "https://stadtkueken.de/wp-content/uploads/Favicon-150x150.png",
+        width: 600,
+        height: 600,
+        alt: "Kinder spielen draußen bei den Stadtküken Natur-Kitas in Hamburg",
       },
     ],
     locale: "de_DE",
-    siteName: "Stadtküken Natur-Kita",
+    siteName: "Stadtküken Natur-Kitas",
   },
+
+  /* -------- Twitter Cards -------- */
   twitter: {
     card: "summary_large_image",
-    title: "Kita Lohbekpark Hamburg-Lokstedt | Stadtküken Natur-Kita",
-    description: "Naturnahe Betreuung für 65 Kinder in Hamburg-Lokstedt. Achtsamkeit, gesunde Ernährung & Partizipation.",
-    images: ["https://stadtkueken.de/wp-content/uploads/240130_Lohbekpark_F.jpg"],
+    title:
+      "Stadtküken Natur-Kitas in Hamburg | Achtsamkeit, Natur & Bio-Essen",
+    description:
+      "Entdecke unsere naturnahen Kitas an mehreren Standorten in Hamburg. Jetzt Platz anfragen!",
+    images: [
+      "https://stadtkueken.de/wp-content/uploads/2021/08/stadtkueken-header_gruppen-spielen.jpg",
+    ],
   },
+
+  /* -------- Weitere Metatags -------- */
   other: {
     "geo.region": "DE-HH",
-    "geo.placename": "Hamburg-Lokstedt",
-    "geo.position": "53.598765;9.923456",
-    "ICBM": "53.598765, 9.923456",
+    // zentrale Koordinate für Hamburg-Mitte
+    "geo.position": "53.551086;9.993682",
+    ICBM: "53.551086, 9.993682",
   },
 };
 
@@ -88,9 +97,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body
-        className={`${inter.variable} antialiased`}
-      >
+      <body>
         {children}
       </body>
     </html>
