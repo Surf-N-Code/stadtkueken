@@ -28,6 +28,7 @@ export interface ReviewData {
     languageCode: string;
   };
   reviews: Review[];
+  userRatingCount: number;
 }
 
 export interface KitaGoogleReviewsProps {
@@ -39,7 +40,7 @@ export interface KitaGoogleReviewsProps {
 export const KitaGoogleReviews = ({
   title,
   subtitle,
-  reviewData
+  reviewData,
 }: KitaGoogleReviewsProps) => {
   const renderStars = (rating: number) => {
     return (
@@ -73,7 +74,7 @@ export const KitaGoogleReviews = ({
               </span>
             </div>
             <span className="text-gray-600">
-              ({reviewData.reviews.length} Bewertungen)
+              ({reviewData.userRatingCount} Bewertungen)
             </span>
           </div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -118,10 +119,11 @@ export const KitaGoogleReviews = ({
                     </div>
                     <ExternalLink className="h-4 w-4 text-stadtkueken-orange flex-shrink-0" />
                   </div>
-                  
-                  <p className="text-gray-700 text-sm line-clamp-4">
-                    {review.originalText.text}
-                  </p>
+                  {review?.originalText?.text && (
+                    <p className="text-gray-700 text-sm line-clamp-4">
+                      {review.originalText.text}
+                    </p>
+                  )}
                 </a>
               </div>
             ) : (
@@ -152,10 +154,11 @@ export const KitaGoogleReviews = ({
                     </div>
                   </div>
                 </div>
-                
-                <p className="text-gray-700 text-sm line-clamp-4">
-                  {review.originalText.text}
-                </p>
+                {review?.originalText?.text && (
+                  <p className="text-gray-700 text-sm line-clamp-4">
+                    {review.originalText.text}
+                  </p>
+                )}
               </div>
             )
           ))}

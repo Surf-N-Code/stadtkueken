@@ -13,9 +13,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({ 
   params 
 }: { 
-  params: { slug: string } 
+  params: Promise<{ slug: string }> 
 }): Promise<Metadata> {
-  const kitaData = getKitaData(params.slug);
+  const { slug } = await params;
+  const kitaData = getKitaData(slug);
   
   if (!kitaData) {
     return {
@@ -53,12 +54,13 @@ export async function generateMetadata({
   };
 }
 
-export default function KitaPage({ 
+export default async function KitaPage({ 
   params 
 }: { 
-  params: { slug: string } 
+  params: Promise<{ slug: string }> 
 }) {
-  const kitaData = getKitaData(params.slug);
+  const { slug } = await params;
+  const kitaData = getKitaData(slug);
   
   if (!kitaData) {
     return <div>Kita not found</div>;

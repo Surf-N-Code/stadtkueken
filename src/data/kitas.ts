@@ -52,7 +52,7 @@ export interface KitaData {
 export const kitaData: KitaData[] = [
   {
     id: "lohbekpark",
-    name: "Lohbekpark",
+    name: "Kita Lohbekpark Lokstedt",
     location: "Lokstedt",
     metadata: {
       title: "Kita Lohbekpark Hamburg-Lokstedt | Stadtküken Natur-Kita | Achtsamkeit & Natur",
@@ -231,6 +231,7 @@ export const kitaData: KitaData[] = [
           "text": "Kinderstadt Kita Lokstedt",
           "languageCode": "de"
         },
+        "userRatingCount": 7,
         "reviews": [
           {
             "name": "places/ChIJvx6dfqWIsUcR2kaTyyToP8U/reviews/ChdDSUhNMG9nS0VJQ0FnSUNHbTktZW5RRRAB",
@@ -279,7 +280,7 @@ export const kitaData: KitaData[] = [
   // Example Kita 2 - Altona
   {
     "id": "baumpieper",
-    "name": "Baumpieper",
+    "name": "Kita Baumpieper Neugraben-Fischbek",
     "location": "Neugraben-Fischbek",
     "metadata": {
       "title": "Kita Baumpieper Neugraben-Fischbek | Stadtküken Natur-Kita | Achtsamkeit & Natur",
@@ -444,6 +445,7 @@ export const kitaData: KitaData[] = [
           "text": "Stadtküken Kita Baumpieper",
           "languageCode": "de"
         },
+        "userRatingCount": 14,
         "reviews": [
           {
             "name": "places/ChIJ255HKG2bsUcRgBAdbB4wCRI/reviews/ChdDSUhNMG9nS0VJQ0FnTUNBcHRUaTRnRRAB",
@@ -553,6 +555,745 @@ export const kitaData: KitaData[] = [
         ]
       }
     },
+  },
+  {
+    "id": "villa-blumenfeld",
+    "name": "Kita Villa Blumenfeld",
+    "location": "Blankenese",
+    "metadata": {
+      "title": "Kita Villa Blumenfeld Blankenese | Stadtküken Natur-Kita | Achtsamkeit & Natur",
+      "description": "Kita Villa Blumenfeld in Hamburg-Blankenese: Naturnahe Betreuung für 90 Kinder (10 Monate – 6 Jahre) in einer stilvollen Jugendstil-Villa mit großem Außenbereich. Jetzt Kitaplatz anfragen!",
+      "keywords": "Kita Villa Blumenfeld, Kita Blankenese, Natur-Kita Hamburg, Stadtküken, Kitaplatz Blankenese, Achtsamkeit Kinder, Naturpädagogik, Kita-Gutschein Hamburg, Kinderbetreuung Blankenese",
+      "openGraph": {
+        "title": "Kita Villa Blumenfeld Blankenese | Stadtküken Natur-Kita",
+        "description": "Naturnahe Betreuung für 90 Kinder in der Jugendstil-Villa am Erik-Blumenfeld-Platz. Achtsamkeit, gesunde Ernährung & Partizipation. Jetzt Kitaplatz anfragen!",
+        "images": [
+          {
+            "url": "https://stadtkueken.de/wp-content/uploads/5F9A6116.jpg",
+            "width": 1200,
+            "height": 630,
+            "alt": "Kita Villa Blumenfeld Blankenese"
+          }
+        ]
+      },
+      "twitter": {
+        "title": "Kita Villa Blumenfeld Blankenese | Stadtküken Natur-Kita",
+        "description": "Naturnahe Betreuung für 90 Kinder in unserer stilvollen Jugendstil-Villa. Jetzt Kitaplatz sichern!",
+        "images": [
+          "https://stadtkueken.de/wp-content/uploads/5F9A6116.jpg"
+        ]
+      },
+      "geo": {
+        "region": "DE-HH",
+        "placename": "Hamburg-Blankenese",
+        "position": "53.552100;9.868200",
+        "icbm": "53.552100, 9.868200"
+      }
+    },
+    "schemaData": {
+      "name": "Stadtküken Kita Villa Blumenfeld",
+      "description": "Natur-Kita in Hamburg-Blankenese in einer sanierten Jugendstil-Villa mit großem naturnahen Außenbereich",
+      "url": "https://stadtkueken.de/standorte/kita-blumenfeld-blankenese/",
+      "telephone": "+49-40-328901213",
+      "email": "villa-blumenfeld@stadtkueken.de",
+      "address": {
+        "streetAddress": "Erik-Blumenfeld-Platz 13",
+        "addressLocality": "Hamburg",
+        "addressRegion": "Hamburg",
+        "postalCode": "22587",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "latitude": 53.552100,
+        "longitude": 9.868200
+      },
+      "openingHours": "Mo-Fr 07:00-17:00",
+      "priceRange": "Kita-Gutschein akzeptiert",
+      "image": "https://stadtkueken.de/wp-content/uploads/5F9A6116.jpg"
+    },
+    "hero": {
+      "name": "Villa Blumenfeld",
+      "location": "Blankenese",
+      "subtitle": "Willkommen in der Kita Villa Blumenfeld",
+      "backgroundImage": "https://stadtkueken.de/wp-content/uploads/5F9A6116.jpg",
+      "childrenCount": 90,
+      "ageRange": "10 Monate – 6 Jahre",
+      "address": "Erik-Blumenfeld-Platz 13",
+      "postalCode": "22587",
+      "city": "Hamburg",
+      "openingHours": "Mo – Fr 07:00 – 17:00",
+      "sinceDate": "August 2021",
+      "phoneNumber": "040 3289 012 - 13"
+    },
+    "info": {
+      "name": "Villa Blumenfeld",
+      "location": "Blankenese",
+      "description": "Unsere Stadtküken Natur-Kita Villa Blumenfeld in Blankenese befindet sich in einer liebevoll sanierten Jugendstil-Villa am Erik-Blumenfeld-Platz. Mit großem, naturnah gestalteten Außenbereich und altem Baumbestand ist sie ein grünes Inselparadies mitten im Stadtzentrum.",
+      "paragraph1": "Die hellen, historischen Räume vereinen Gemütlichkeit mit nachhaltiger Modernisierung. Viel Raum zum Spielen, Lesen und Entspannen lädt Kinder zum Wohlfühlen ein.",
+      "paragraph2": "Unser pädagogisches Team fördert individuell und achtsam – mit Achtsamkeitsübungen, Naturprojekten im eigenen Garten und partizipativer Tagesgestaltung.",
+      "quote": "Deine individuellen Nuancen bringen Vielfalt in diese Welt und unsere Einrichtungen. Wir sehen dich und schätzen dich so wie du bist!",
+      "imageUrl": "https://stadtkueken.de/wp-content/uploads/5F9A6034.jpg",
+      "imageAlt": "Innenraum Kita Villa Blumenfeld",
+      "activities": {
+        "title": "Aktivitäten",
+        "description": "Naturbezogene Projekte in der Villa und im Garten fördern Forschergeist und Kreativität."
+      },
+      "nutrition": {
+        "title": "Ernährung",
+        "description": "Täglich frische, nährstoffreiche Mahlzeiten mit Bio-Produkten nach DGE-Standard."
+      },
+      "garden": {
+        "title": "Ackerracker",
+        "description": "Im eigenen Garten erleben Kinder, wie Gemüse wächst und lernen nachhaltiges Gärtnern."
+      },
+      "values": {
+        "mindfulness": "Achtsamkeit und individuelle Wahrnehmung jedes Kindes",
+        "nature": "Die Villa und ihr Garten sind unser natürlicher Lern- und Spielort",
+        "participation": "Kinder gestalten mit und übernehmen Verantwortung"
+      }
+    },
+    "contact": {
+      "name": "Villa Blumenfeld",
+      "location": "Blankenese",
+      "address": "Erik-Blumenfeld-Platz 13",
+      "postalCode": "22587",
+      "city": "Hamburg",
+      "openingHours": "Montag – Freitag\n07:00 – 17:00 Uhr",
+      "groups": "2 Krippen-Gruppen (ca. 30 Kinder)\n3 Elementar-Gruppen (ca. 60 Kinder)",
+      "phoneNumber": "040 3289 012 - 13",
+      "email": "villa-blumenfeld@stadtkueken.de",
+      "contactPerson": "Sara Jakimovski"
+    },
+    "gallery": {
+      "title": "Unsere Einrichtung",
+      "subtitle": "Bilder aus der Villa und dem naturnahen Außenbereich",
+      "images": [
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/5F9A6116.jpg",
+          "alt": "Fassade der Kita Villa Blumenfeld"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/5F9A6034.jpg",
+          "alt": "Gruppenraum in der Villa Blumenfeld"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/5F9A6187.jpg",
+          "alt": "Kinderbereich innen"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/5F9A5980.jpg",
+          "alt": "Spielbereich im Außenbereich"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/5F9A5962.jpg",
+          "alt": "Naturnaher Garten der Kita"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/5F9A5893.jpg",
+          "alt": "Terrasse unter altem Baumbestand"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/5F9A6200-2.jpg",
+          "alt": "Leseecke im Gruppenraum"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-19.jpg",
+          "alt": "Kinder bewirtschaften den Ackerracker"
+        }
+      ],
+      "roomsTitle": "Unsere Räume",
+      "roomsDescription": "Helle, historische Räume kombiniert mit natürlicher Möblierung schaffen einen geschützten Wohlfühlort.",
+      "outdoorTitle": "Außenbereich",
+      "outdoorDescription": "Der große, naturnahe Garten mit altem Baumbestand und Spielgeräten lädt zu fantasievollem Spiel ein."
+    },
+    "team": {
+      "title": "Unsere Leitung",
+      "subtitle": "Engagierte Pädagogin, die Ihr Kind begleitet",
+      "teamMember": {
+        "name": "Sara Jakimovski",
+        "title": "Leitung Kita Villa Blumenfeld",
+        "imageUrl": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-Leitung-Villa-Blumenfeld-Sara.jpg",
+        "phoneNumber": "040 3289 012 - 13",
+        "email": "villa-blumenfeld@stadtkueken.de",
+        "quote": "Partnerschaftliche Zusammenarbeit mit Eltern ist die Grundlage für das Wohlbefinden und die Entwicklung unserer Kinder."
+      }
+    },
+    "map": {
+      "name": "Baumpieper",
+      "location": "Neugraben-Fischbek",
+      "address": "Baumpieperweg 5",
+      "postalCode": "21149",
+      "city": "Hamburg",
+      "district": "Neugraben-Fischbek",
+      "description": "Besuchen Sie uns im Fischbeker Heidbrook – Baumpieperweg 5, 21149 Hamburg.",
+      "publicTransport": "Gut erreichbar mit Bus und S-Bahn; Haltestellen in unmittelbarer Nähe.",
+      "parking": "Öffentliche Parkplätze in der Umgebung vorhanden.",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.0899691103486!2d9.808310612702217!3d53.46736357220925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b19b6d28479edb%3A0x1209301e6c1d1080!2sStadtk%C3%BCken%20Kita%20Baumpieper!5e1!3m2!1sen!2sde!4v1751233338198!5m2!1sen!2sde"
+    },
+    "reviews": {
+      "title": "Was Eltern über uns sagen",
+      "subtitle": "Echte Bewertungen von Eltern aus unserer Kita-Gemeinschaft",
+      "reviewData": {
+          "formattedAddress": "Erik-Blumenfeld-Platz 13, 22587 Hamburg, Germany",
+          "displayName": {
+            "text": "Stadtküken Villa Blumenfeld",
+            "languageCode": "de"
+          },
+          "userRatingCount": 2,
+          "reviews": [
+            {
+              "name": "places/ChIJzduXAtiDsUcReqlsSC1WVpk/reviews/ChdDSUhNMG9nS0VJQ0FnSUN4dzZ5dGtRRRAB",
+              "relativePublishTimeDescription": "2 years ago",
+              "rating": 5,
+              "text": {
+                "text": "Great daycare with great teachers! Very lovingly and service-oriented management, uncomplicated and friendly parenting.",
+                "languageCode": "en-US"
+              },
+              "originalText": {
+                "text": "Tolle Kita mit super Erziehern/Erzieherinnen! Sehr liebevoll und serviceorientiert geführt, unkomplizierte und freundliche Elternschaft.",
+                "languageCode": "de"
+              },
+              "authorAttribution": {
+                "displayName": "Janis Meyer-Plath",
+                "uri": "https://www.google.com/maps/contrib/114013914939588334855/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKh9S_UsvpfmmK2G6PVAKuRVl92ZjhTZcpKVosCJEm26ToEgw=s128-c0x00000000-cc-rp-mo"
+              },
+              "publishTime": "2023-05-24T16:12:14.393357Z",
+              "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN4dzZ5dGtRRRAB&d=17924085&t=1",
+              "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN4dzZ5dGtRRRAB!2m1!1s0x47b183d80297dbcd:0x9956562d486ca97a"
+            },
+            {
+              "name": "places/ChIJzduXAtiDsUcReqlsSC1WVpk/reviews/ChdDSUhNMG9nS0VJQ0FnSUR4b0tmYm5BRRAB",
+              "relativePublishTimeDescription": "2 years ago",
+              "rating": 5,
+              "authorAttribution": {
+                "displayName": "Kev Hee",
+                "uri": "https://www.google.com/maps/contrib/118339019710721738331/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWudO-G6aZ-7ygjPKMASRgGlv8oaCNTaqeXzwi_wzNaTyb_wiub=s128-c0x00000000-cc-rp-mo"
+              },
+              "publishTime": "2023-05-30T14:04:52.004999Z",
+              "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR4b0tmYm5BRRAB&d=17924085&t=1",
+              "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR4b0tmYm5BRRAB!2m1!1s0x47b183d80297dbcd:0x9956562d486ca97a"
+            }
+          ]
+        }
+      }
+  },
+  {
+    "id": "johanns-garten",
+    "name": "Kita Johann’s Garten Groß Borstel",
+    "location": "Groß Borstel",
+    "metadata": {
+      "title": "Kita Johann’s Garten Groß Borstel | Stadtküken Natur-Kita | Achtsamkeit & Natur",
+      "description": "Seit Februar 2025 heißen wir Kinder von 10 Monaten bis 6 Jahren in unserer Stadtküken Natur-Kita Johann’s Garten im Brödermannsweg in Groß Borstel willkommen. Jetzt unverbindlich Kitaplatz vormerken!",
+      "keywords": "Kita Johann’s Garten, Kita Groß Borstel, Natur-Kita Hamburg, Stadtküken, Kitaplatz Groß Borstel, Achtsamkeit Kinder, Naturpädagogik, Kita-Gutschein Hamburg, Kinderbetreuung Groß Borstel",
+      "openGraph": {
+        "title": "Kita Johann’s Garten Groß Borstel | Stadtküken Natur-Kita",
+        "description": "Naturnahe Betreuung für Kinder von 10 Monaten bis 6 Jahren in Groß Borstel. Jetzt Kitaplatz vormerken!",
+        "images": [
+          {
+            "url": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-28.jpg",
+            "width": 1200,
+            "height": 630,
+            "alt": "Kinder toben im Wald in der Kita Johann’s Garten"
+          }
+        ]
+      },
+      "twitter": {
+        "title": "Kita Johann’s Garten Groß Borstel | Stadtküken Natur-Kita",
+        "description": "Naturnahe Betreuung in Groß Borstel. Jetzt unverbindlich Kitaplatz vormerken!",
+        "images": [
+          "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-28.jpg"
+        ]
+      },
+      "geo": {
+        "region": "DE-HH",
+        "placename": "Hamburg-Groß Borstel",
+        "position": "53.616700;9.983300",
+        "icbm": "53.616700, 9.983300"
+      }
+    },
+    "schemaData": {
+      "name": "Stadtküken Kita Johann’s Garten",
+      "description": "Natur-Kita in Hamburg-Groß Borstel mit achtsamer Betreuung für Kinder von 10 Monaten bis 6 Jahren",
+      "url": "https://stadtkueken.de/standorte/kita-johannsgarten-grossborstel/",
+      "telephone": "+49-40-328901219",
+      "email": "johanns-garten@stadtkueken.de",
+      "address": {
+        "streetAddress": "Brödermannsweg 42",
+        "addressLocality": "Hamburg",
+        "addressRegion": "Hamburg",
+        "postalCode": "22453",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "latitude": 53.616700,
+        "longitude": 9.983300
+      },
+      "openingHours": "Mo-Fr 07:00-17:00",
+      "priceRange": "Kita-Gutschein akzeptiert",
+      "image": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-28.jpg"
+    },
+    "hero": {
+      "name": "Johann’s Garten",
+      "location": "Groß Borstel",
+      "subtitle": "Willkommen in der Kita Johann’s Garten",
+      "backgroundImage": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-28.jpg",
+      "childrenCount": 95,
+      "ageRange": "10 Monate – 6 Jahre",
+      "address": "Brödermannsweg 42",
+      "postalCode": "22453",
+      "city": "Hamburg",
+      "openingHours": "Mo – Fr 07:00 – 17:00",
+      "sinceDate": "Februar 2025",
+      "phoneNumber": "040 3289 012 - 19"
+    },
+    "info": {
+      "name": "Johann’s Garten",
+      "location": "Groß Borstel",
+      "description": "Seit Februar 2025 begrüßen wir Kinder in unserer liebevoll sanierten Stadtküken Natur-Kita Johann’s Garten im Brödermannsweg. Zwischen altem Baumbestand, Sträuchern und naturbezogenen Spielgeräten erleben unsere Küken tägliche Auszeiten in der Natur.",
+      "paragraph1": "Das Gebäude und der neu gestaltete Außenbereich bieten Raum zum Entdecken, Spielen und Ausruhen. Die hellen, offenen Räume laden zum Wohlfühlen ein und schaffen Geborgenheit.",
+      "paragraph2": "Unser pädagogisches Team begleitet jedes Kind achtsam und individuell. Mit Naturprojekten, Achtsamkeitsübungen und partizipativer Tagesgestaltung fördern wir Selbstbewusstsein und Kreativität.",
+      "quote": "Wir ermutigen unsere Kinder dazu, ihre Gefühle aktiv wahrzunehmen, zu benennen und einzuordnen.",
+      "imageUrl": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-Kita-Broedermanssweg_Exterior_Final-2560x1600px_Perspektive03.jpg",
+      "imageAlt": "Außenansicht Kita Johann’s Garten",
+      "activities": {
+        "title": "Aktivitäten",
+        "description": "Waldabenteuer, Gartenprojekte und Achtsamkeitsspiele fördern Forschergeist und Zusammenhalt."
+      },
+      "nutrition": {
+        "title": "Ernährung",
+        "description": "Frische, ausgewogene Mahlzeiten nach DGE-Standard – gemeinsam zubereitet und genossen."
+      },
+      "garden": {
+        "title": "Ackerracker",
+        "description": "Unsere eigene kleinen Gärtnerei zeigt Kindern, wo Gemüse herkommt und wie es wächst."
+      },
+      "values": {
+        "mindfulness": "Achtsamkeit und individuelle Wahrnehmung jedes Kindes",
+        "nature": "Die Natur als zentraler Lern- und Spielort",
+        "participation": "Kinder gestalten ihren Kita-Alltag aktiv mit"
+      }
+    },
+    "contact": {
+      "name": "Johann’s Garten",
+      "location": "Groß Borstel",
+      "address": "Brödermannsweg 42",
+      "postalCode": "22453",
+      "city": "Hamburg",
+      "openingHours": "Montag – Freitag\n07:00 – 17:00 Uhr",
+      "groups": "6 Krippen-Gruppen\n6 Elementar-Gruppen\nVorschulegruppe",
+      "phoneNumber": "040 3289 012 - 19",
+      "email": "johanns-garten@stadtkueken.de",
+      "contactPerson": "Susi Benthin"
+    },
+    "gallery": {
+      "title": "Unsere Einrichtung",
+      "subtitle": "Bilder aus Kita und naturnahem Außenbereich",
+      "images": [
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-28.jpg",
+          "alt": "Kinder toben im Wald"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-Kita-Broedermanssweg_Exterior_Final-2560x1600px_Perspektive03.jpg",
+          "alt": "Außenansicht Kita Johann’s Garten – Perspektive 1"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-Kita-Broedermanssweg_Exterior_Final-2560x1600px_Perspektive02.jpg",
+          "alt": "Außenansicht Kita Johann’s Garten – Perspektive 2"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueknen-Kita-Broedermanssweg_Exterior_Final-2560x1600px_Perspektive01.jpg",
+          "alt": "Außenansicht Kita Johann’s Garten – Perspektive 3"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/24_Stadtkueken-baumpieper-5.jpg",
+          "alt": "Einblick in den Gruppenraum"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-Treudelberg-7.jpg",
+          "alt": "Elementarbereich"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-Treudelberg-5.jpg",
+          "alt": "Waschraum"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-Treudelberg-6.jpg",
+          "alt": "Waschraum mit Kindersink"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkeken-kita-hamburg-image-48.jpg",
+          "alt": "Gemeinsames Mittagessen"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-1.jpg",
+          "alt": "Naturpädagogik im Garten"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-13.jpg",
+          "alt": "Projekt gesunde Ernährung"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-18.jpg",
+          "alt": "Kinder entdecken neues Gemüse"
+        }
+      ],
+      "roomsTitle": "Unsere Räume",
+      "roomsDescription": "Helle, moderne Gruppenräume mit viel Platz zum Spielen und Rückzug.",
+      "outdoorTitle": "Außenbereich",
+      "outdoorDescription": "Naturnaher Garten mit altem Baumbestand, Beerensträuchern und Spielgeräten."
+    },
+    "team": {
+      "title": "Unsere Leitung",
+      "subtitle": "Engagierte Pädagogin, die Ihr Kind begleitet",
+      "teamMember": {
+        "name": "Susi Benthin",
+        "title": "Leitung Kita Johann’s Garten",
+        "imageUrl": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-Website-Bilder-Portraet-Susi-Johanns-Garten-600x600.png",
+        "phoneNumber": "040 3289 012 - 19",
+        "email": "johanns-garten@stadtkueken.de",
+        "quote": "Die partnerschaftliche und enge Zusammenarbeit zwischen den Eltern und unserer Kita ist die Grundlage für das Wohlbefinden und die Entwicklung unserer Kinder."
+      }
+    },
+    "map": {
+      "name": "Johann’s Garten",
+      "location": "Groß Borstel",
+      "address": "Brödermannsweg 42",
+      "postalCode": "22453",
+      "city": "Hamburg",
+      "district": "Groß Borstel",
+      "description": "Besuchen Sie uns im Brödermannsweg 42, 22453 Hamburg.",
+      "publicTransport": "Gut erreichbar mit Bus und S-Bahn; Haltestellen in unmittelbarer Nähe.",
+      "parking": "Öffentliche Parkplätze in der Umgebung vorhanden.",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2767.9966194930016!2d9.971610212709503!3d53.60622877225064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1894c9cec80d5%3A0x48ba4fc4079bef2f!2sStadtk%C3%BCken%20Kita%20Johann&#39;s%20Garten!5e1!3m2!1sen!2sde!4v1751235858453!5m2!1sen!2sde"
+    },
+    "reviews": {
+      "title": "Was Eltern über uns sagen",
+      "subtitle": "Echte Bewertungen von Eltern aus unserer Kita-Gemeinschaft",
+      "reviewData": {
+        "formattedAddress": "Brödermannsweg 42, 22453 Hamburg, Germany",
+        "userRatingCount": 12,
+        "displayName": {
+          "text": "Stadtküken Kita Johann's Garten",
+          "languageCode": "de"
+        },
+        "reviews": [
+          {
+            "name": "places/ChIJ1YDsnEyJsUcRL--bB8RPukg/reviews/ChZDSUhNMG9nS0VJQ0FnTURJc3BybElREAE",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+              "text": "Our son has been visiting the crèche area since it opened and you can tell that he feels very comfortable.\nGetting used to it worked without any problems. All the teachers are very competent, loving, treat the children at eye level and are simply great.\nThe rooms and the outdoor area are very lovingly designed and not too overloaded.\nWe simply couldn't have made a better choice and are looking forward to watching our little city chick grow with you. We can wholeheartedly recommend the Kita Johann's Garten.",
+              "languageCode": "en-US"
+            },
+            "originalText": {
+              "text": "Unser Sohn besucht seit der Eröffnung den Krippenbereich und man merkt, dass er sich sehr wohl fühlt.\nDie Eingewöhnung hat ohne Probleme funktioniert. Alle Erzieherinnen sind sehr kompetent, liebevoll, begegnen den Kindern auf Augenhöhe und sind einfach nur großartig.\nDie Räumlichkeiten und der Außenbereich sind sehr liebevoll gestaltet und nicht zu überladen.\nWir hätten einfach keine bessere Wahl treffen können und freuen uns unser kleines Stadtküken bei euch wachsen zu sehen. Die Kita Johann's Garten können wir von ganzem Herzen empfehlen.",
+              "languageCode": "de"
+            },
+            "authorAttribution": {
+              "displayName": "Mirko Schroeder",
+              "uri": "https://www.google.com/maps/contrib/118427398742953941266/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKCQVv2Xm73hU5rScZfEKgDLyDk0O3OqdbIu6LFVB6hhLI7=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2025-04-08T15:18:30.657105Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTURJc3BybElREAE&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTURJc3BybElREAE!2m1!1s0x47b1894c9cec80d5:0x48ba4fc4079bef2f"
+          },
+          {
+            "name": "places/ChIJ1YDsnEyJsUcRL--bB8RPukg/reviews/ChdDSUhNMG9nS0VJQ0FnTUR3amFyNnZRRRAB",
+            "relativePublishTimeDescription": "3 months ago",
+            "rating": 5,
+            "text": {
+              "text": "Wonderful daycare center – our daughter feels completely at home!\n\nSince our daughter started going to the newly opened daycare center, we have only had positive experiences! The decor is modern, bright and inviting. We are particularly enthusiastic about the warm and loving atmosphere that radiates from the entire, albeit young, team. The teachers are not only professional, but also very warm and respond individually to the needs of each child. Our daughter feels very comfortable here and it's nice to see her go to daycare with a smile every day. We are happy to have found the facility in the immediate vicinity of our home.",
+              "languageCode": "en-US"
+            },
+            "originalText": {
+              "text": "Wundervolle Kita – Unsere Tochter fühlt sich rundum wohl!\n\nSeitdem unsere Tochter in die neu eröffnete Kita geht, haben wir nur positive Erfahrungen gemacht! Die Einrichtung ist modern, hell und einladend. Besonders begeistert sind wir von der warmen und liebevollen Atmosphäre, die vom gesamten wenngleich jungen Team ausgestrahlt wird. Die Erzieherinnen sind nicht nur professionell, sondern auch sehr herzlich und gehen individuell auf die Bedürfnisse jedes Kindes ein. Unsere Tochter fühlt sich hier sehr wohl, und es ist schön zu sehen, wie sie jeden Tag mit einem Lächeln in die Kita geht. Wir sind glücklich, die Einrichtung in direkter Nachbarschaft zu unserem Zuhause, gefunden zu haben.",
+              "languageCode": "de"
+            },
+            "authorAttribution": {
+              "displayName": "Frank Gebhardt",
+              "uri": "https://www.google.com/maps/contrib/112349519358003178741/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIN8BbICIyVyfOGi9J0WsJlwyCREMWuV5VSs0nlehfYzE3gbw=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2025-03-27T12:57:14.213646Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnTUR3amFyNnZRRRAB&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnTUR3amFyNnZRRRAB!2m1!1s0x47b1894c9cec80d5:0x48ba4fc4079bef2f"
+          },
+          {
+            "name": "places/ChIJ1YDsnEyJsUcRL--bB8RPukg/reviews/ChdDSUhNMG9nS0VJQ0FnTURJNXVyYXNRRRAB",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+              "text": "Our son has been attending the Stadtküken Kita Johanns on Brödermannsweg for 10 days and we are completely satisfied. The teachers are very warm, attentive and take loving care of the children. What's particularly nice is how quickly our son settled in - it shows how comfortable he feels there. We had the feeling from the start that he was in good hands there.\nMany thanks to the whole team for the great work!",
+              "languageCode": "en-US"
+            },
+            "originalText": {
+              "text": "Unser Sohn besucht seit 10 Tage die Stadtküken Kita Johanns am Brödermannsweg  und wir sind rundum zufrieden. Die Erzieherinnen sind sehr herzlich, aufmerksam und kümmern sich liebevoll um die Kinder. Besonders schön ist, wie schnell sich unser Sohn eingewöhnt hat – das zeigt, wie wohl er sich dort fühlt. Wir haben von Anfang an das Gefühl gehabt, dass er dort gut aufgehoben ist.\nVielen Dank an das ganze Team für die tolle Arbeit!",
+              "languageCode": "de"
+            },
+            "authorAttribution": {
+              "displayName": "Atiq Salehi",
+              "uri": "https://www.google.com/maps/contrib/107296335347303973970/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJQDj0mMVVjEzQkQHt9qwJwB5OiLySsroRLKriNWm2fcJK3hQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2025-04-09T11:11:56.515987Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnTURJNXVyYXNRRRAB&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnTURJNXVyYXNRRRAB!2m1!1s0x47b1894c9cec80d5:0x48ba4fc4079bef2f"
+          },
+          {
+            "name": "places/ChIJ1YDsnEyJsUcRL--bB8RPukg/reviews/ChZDSUhNMG9nS0VJQ0FnTUNJdWVLX2RnEAE",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+              "text": "We couldn't feel more comfortable choosing this daycare center! Our two children started in the elementary and daycare areas and have had a lot of fun since the beginning and feel very comfortable.\n\nAll employees (from management to educators to caretakers) radiate incredible warmth, work at eye level and the children are always the focus.\n\nWe are particularly enthusiastic about the focus on nature education, which not only gives children a deep understanding of the environment, but also enables them to come into contact with nature in a playful way.\n\nParticular emphasis is also placed on participation. The children are actively involved in decisions, be it in choosing activities or in organizing everyday life. Their opinions and wishes are listened to, which strengthens their self-confidence and personal responsibility. The educators create an atmosphere of trust and respect in which the children can develop freely.\n\nThis facility is more than recommended because it is a great enrichment for children and their parents. A daycare center that not only imparts knowledge, but also values \u200b\u200bfor a mindful life with nature!",
+              "languageCode": "en-US"
+            },
+            "originalText": {
+              "text": "Wohler könnten wir uns  mit der Wahl dieser Kita nicht fühlen! Unsere beiden Kinder sind jeweils im Elementar- sowie Krippenbereich gestartet, haben seit Beginn riesigen Spaß und fühlen sich sehr wohl.\n\nAlle Mitarbeitenden (von der Leitung über Erzieher:innen bis Hausmeister) strahlen eine wahnsinnige Herzlichkeit aus, arbeiten auf Augenhöhe und die Kinder stehen zu jeder Zeit im Mittelpunkt.\n\nBesonders begeistert uns der naturpädagogische Schwerpunkt, der den Kindern nicht nur ein tiefes Verständnis für die Umwelt vermittelt, sondern ihnen auch ermöglicht, auf spielerische Weise mit der Natur in Kontakt zu kommen.\n\nZudem wird besonders viel Wert auf Partizipation gelegt. Die Kinder werden aktiv in Entscheidungen einbezogen, sei es bei der Auswahl von Aktivitäten oder bei der Gestaltung des Alltags. Es wird auf ihre Meinungen und Wünsche gehört, was ihr Selbstbewusstsein und ihre Eigenverantwortung stärkt. Die Erzieher:innen schaffen eine Atmosphäre des Vertrauens und Respekts, in der die Kinder sich frei entfalten können.\n\nDiese Einrichtung ist mehr als empfehlenswert, denn sie ist für Kinder als auch ihre Eltern eine große Bereicherung. Eine Kita, die nicht nur Wissen vermittelt, sondern auch Werte für ein achtsames Leben mit der Natur!",
+              "languageCode": "de"
+            },
+            "authorAttribution": {
+              "displayName": "Dorothee Schubert",
+              "uri": "https://www.google.com/maps/contrib/105752073557927247270/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKNvbol2hApzgRFfG7eAhileJlRY8TQbnnHKcMyFLkUNn9xeg=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2025-04-04T10:10:28.807097Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTUNJdWVLX2RnEAE&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTUNJdWVLX2RnEAE!2m1!1s0x47b1894c9cec80d5:0x48ba4fc4079bef2f"
+          },
+          {
+            "name": "places/ChIJ1YDsnEyJsUcRL--bB8RPukg/reviews/ChZDSUhNMG9nS0VJQ0FnTURJMDRpUldnEAE",
+            "relativePublishTimeDescription": "2 months ago",
+            "rating": 5,
+            "text": {
+              "text": "We waited a year for the Stadtküken kindergarten to open and my daughter is now very happy. Cleanliness, humanity and willingness to help are important to us; all of this and more is available in City Chicks.\nI like taking my daughter there and know that she is in good hands. Very friendly staff and parents. Not only the children but also the parents feel welcome.\n\nI would be happy to recommend the daycare center to our friends.",
+              "languageCode": "en-US"
+            },
+            "originalText": {
+              "text": "Wir haben ein Jahr auf die Eröffnung des Stadtküken Kindergartens gewartet und  meine  Tochter ist jetzt sehr glücklich. Wichtig sind uns Sauberkeit, Menschlichkeit, Hilfsbereitschaft; all dies und mehr ist in Stadtküken verfügbar.\nIch bringe meineTochter gern hin und weiß, dass sie in guten Händen ist . Sehr freundliche Personal und Elternschaft. Nicht nur die Kinder, auch die Eltern fühlen sich willkommen.\n\nGerne empfehle ich die Kita an unsere Freunde weiter.",
+              "languageCode": "de"
+            },
+            "authorAttribution": {
+              "displayName": "Aysel",
+              "uri": "https://www.google.com/maps/contrib/112963029494502070701/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLabfppaq1DGYDLt6axasxgLU1dFkQzd2PaFsF-9D2hFElyqA=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2025-04-12T20:20:11.337233Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTURJMDRpUldnEAE&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTURJMDRpUldnEAE!2m1!1s0x47b1894c9cec80d5:0x48ba4fc4079bef2f"
+          }
+        ]
+      }
+    },
+  },
+  {
+    "id": "muehle",
+    "name": "Kita Mühle Wandsbek",
+    "location": "Wandsbek",
+    "metadata": {
+      "title": "Kita Mühle Wandsbek | Stadtküken Natur-Kita | Achtsamkeit & Natur",
+      "description": "Idyllisch gelegenes Fachwerkhaus im Ölmühlenweg: In der Stadtküken Natur-Kita Mühle Wandsbek betreuen wir rund 95 Kinder (3 – 6 Jahre) in fünf Elementar-Gruppen. Großer Garten, achtsame Pädagogik & gesunde Ernährung. Jetzt Kitaplatz sichern!",
+      "keywords": "Kita Mühle, Kita Wandsbek, Natur-Kita Hamburg, Stadtküken, Kitaplatz Wandsbek, Achtsamkeit Kinder, Naturpädagogik, Kita-Gutschein Hamburg, Kinderbetreuung Wandsbek",
+      "openGraph": {
+        "title": "Kita Mühle Wandsbek | Stadtküken Natur-Kita",
+        "description": "Naturnahe Betreuung für Elementarkinder in der historischen Ölmühle am Eichtalpark. Jetzt Kitaplatz anfragen!",
+        "images": [
+          {
+            "url": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-6.jpg",
+            "width": 1200,
+            "height": 630,
+            "alt": "Außenansicht der Fachwerk-Kita Mühle Wandsbek"
+          }
+        ]
+      },
+      "twitter": {
+        "title": "Kita Mühle Wandsbek | Stadtküken Natur-Kita",
+        "description": "Großer Garten & achtsame Pädagogik im historischen Fachwerkhaus am Ölmühlenweg. Jetzt Kitaplatz sichern!",
+        "images": [
+          "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-6.jpg"
+        ]
+      },
+      "geo": {
+        "region": "DE-HH",
+        "placename": "Hamburg-Wandsbek",
+        "position": "53.578000;10.091000",
+        "icbm": "53.578000, 10.091000"
+      }
+    },
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Preschool",
+      "name": "Stadtküken Kita Mühle",
+      "description": "Natur-Kita in Hamburg-Wandsbek mit achtsamer Betreuung für Kinder von 3 bis 6 Jahren",
+      "url": "https://stadtkueken.de/standorte/kita-muehle-wandsbek/",
+      "telephone": "+49-40-328901212",
+      "email": "muehle@stadtkueken.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ölmühlenweg 33B",
+        "addressLocality": "Hamburg",
+        "addressRegion": "Hamburg",
+        "postalCode": "22047",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.578000,
+        "longitude": 10.091000
+      },
+      "openingHours": "Mo-Fr 07:00-17:00",
+      "priceRange": "Kita-Gutschein akzeptiert",
+      "image": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-6.jpg"
+    },
+    "hero": {
+      "name": "Mühle",
+      "location": "Wandsbek",
+      "subtitle": "Willkommen in der Kita Mühle",
+      "backgroundImage": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-6.jpg",
+      "childrenCount": 95,
+      "ageRange": "3 – 6 Jahre",
+      "address": "Ölmühlenweg 33B",
+      "postalCode": "22047",
+      "city": "Hamburg",
+      "openingHours": "Mo – Fr 07:00 – 17:00",
+      "sinceDate": "2019",
+      "phoneNumber": "040 3289 012 - 12"
+    },
+    "info": {
+      "name": "Mühle",
+      "location": "Wandsbek",
+      "description": "Unsere Stadtküken Natur-Kita Mühle verbindet einen denkmalgeschützten Fachwerkcharme mit moderner, nachhaltiger Ausstattung. Im großen, naturnahen Garten an der Wandse können Kinder toben, forschen und die Natur erleben.",
+      "paragraph1": "Die hellen Gruppenräume im historischen Gebäude bieten viel Platz zum Spielen sowie gemütliche Rückzugsorte zum Lesen und Entspannen. Altes Gebälk trifft dabei auf kindgerechte, moderne Materialien.",
+      "paragraph2": "Achtsamkeit, Partizipation und Naturpädagogik prägen unseren Alltag. Projekte wie unser ‚Ackerracker‘-Gemüsegarten vermitteln den Kindern, woher ihr Essen kommt, und stärken ihr Umweltbewusstsein.",
+      "quote": "Ausgangspunkt unseres Handelns ist stets der Respekt vor der Persönlichkeit eines jeden Menschen.",
+      "imageUrl": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-10.jpg",
+      "imageAlt": "Spielende Kinder vor der Mühle",
+      "activities": {
+        "title": "Aktivitäten",
+        "description": "Waldtage, Bewegungsspiele und kreative Werkstätten wecken Forschergeist und Fantasie."
+      },
+      "nutrition": {
+        "title": "Ernährung",
+        "description": "Frische, regionale Zutaten nach DGE-Standard – gekocht in unserer eigenen Küche."
+      },
+      "garden": {
+        "title": "Ackerracker",
+        "description": "Eigener Gemüseacker: säen, pflegen, ernten – und anschließend genießen."
+      },
+      "values": {
+        "mindfulness": "Achtsamkeit & individuelle Begleitung",
+        "nature": "Die Natur als Lernraum",
+        "participation": "Kinder gestalten ihren Alltag mit"
+      }
+    },
+    "contact": {
+      "name": "Mühle",
+      "location": "Wandsbek",
+      "address": "Ölmühlenweg 33B",
+      "postalCode": "22047",
+      "city": "Hamburg",
+      "openingHours": "Montag – Freitag\n07:00 – 17:00 Uhr",
+      "groups": "5 Elementar-Gruppen (ca. 95 Kinder)",
+      "phoneNumber": "040 3289 012 - 12",
+      "email": "muehle@stadtkueken.de",
+      "contactPerson": "Henrik Depenbrock"
+    },
+    "gallery": {
+      "title": "Unsere Einrichtung",
+      "subtitle": "Entdecke Haus, Räume und Garten der Kita Mühle",
+      "images": [
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-18.jpg",
+          "alt": "Kinder entdecken Gemüse"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-6.jpg",
+          "alt": "Außenansicht Fachwerkhaus – Perspektive 1"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-9.jpg",
+          "alt": "Außenansicht Fachwerkhaus – Perspektive 2"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-3.jpg",
+          "alt": "Gruppenraum 1"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-4.jpg",
+          "alt": "Gruppenraum 2"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-muehle-10.jpg",
+          "alt": "Spielplatz mit Fachwerkhaus"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-24.jpg",
+          "alt": "Kinder ernten Gemüse"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-25.jpg",
+          "alt": "Gemüse anbauen in der Kita"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-35.jpg",
+          "alt": "Kindergarten-Gruppe in der Natur"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-17.jpg",
+          "alt": "Mädchen schaukelt vor der Mühle"
+        },
+        {
+          "src": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-27.jpg",
+          "alt": "Kinder ernten auf dem Kita-Acker"
+        }
+      ],
+      "roomsTitle": "Unsere Räume",
+      "roomsDescription": "Helle Fachwerk-Räume mit modernem Spiel- und Lernmaterial, gemütlichen Leseecken & Kreativbereichen.",
+      "outdoorTitle": "Außenbereich",
+      "outdoorDescription": "Großer, naturnaher Garten mit Tipis, Weidentunneln, Baumstammpfaden und Zugang zur Wandse."
+    },
+    "team": {
+      "title": "Unsere Leitung",
+      "subtitle": "Engagierter Pädagoge, der Ihr Kind begleitet",
+      "teamMember": {
+        "name": "Henrik Depenbrock",
+        "title": "Leitung Kita Mühle",
+        "imageUrl": "https://stadtkueken.de/wp-content/uploads/Stadtkueken-Website-Bilder-Portraet-Henrik-Depenbrock.png",
+        "phoneNumber": "040 3289 012 - 12",
+        "email": "muehle@stadtkueken.de",
+        "quote": "Gemeinsam wachsen – wo geht das besser als an so einem idyllischen Ort wie unserer alten Mühle direkt an der Wandse?"
+      }
+    },
+    "map": {
+      "name": "Mühle",
+      "location": "Wandsbek",
+      "address": "Ölmühlenweg 33B",
+      "postalCode": "22047",
+      "city": "Hamburg",
+      "district": "Wandsbek",
+      "description": "Besuchen Sie uns im Ölmühlenweg 33B, 22047 Hamburg. Wir freuen uns auf Ihren Besuch!",
+      "publicTransport": "U1 Wandsbek Markt & Buslinien fußläufig erreichbar.",
+      "parking": "Begrenzte Parkmöglichkeiten direkt auf dem Gelände.",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2769.5427867683843!2d10.097679912708271!3d53.5826346722435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18b8a5b7966a5%3A0xeea7de9868651ec9!2sStadtk%C3%BCken%20Kita%20M%C3%BChle!5e1!3m2!1sen!2sde!4v1751236220563!5m2!1sen!2sde"
+    },
+    "reviews": {
+      "title": "Was Eltern über uns sagen",
+      "subtitle": "Echte Stimmen aus unserer Kita-Gemeinschaft",
+      "reviewData": {
+        "formattedAddress": "Ölmühlenweg 33B, 22047 Hamburg, Germany",
+        "displayName": {
+          "text": "Stadtküken Kita Mühle",
+          "languageCode": "de"
+        },
+        "userRatingCount": 0,
+        "reviews": [
+          
+        ]
+      }
+    }
   }
 ];
 
