@@ -56,7 +56,18 @@ export const Hero = () => {
               asChild
               className="border-2 border-white text-stadtkueken-brown hover:bg-white hover:text-stadtkueken-brown px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 bg-white"
             >
-              <a href="tel:04032890120">
+              <a 
+                href="tel:04032890120" 
+                className="flex items-center"
+                aria-label="Ruf uns an"
+                aria-describedby="Ruf uns an"
+                aria-expanded={false}
+                aria-pressed={false}
+                aria-controls="contact"
+                aria-live="polite"
+                aria-busy={false}
+                aria-disabled={false}
+              >
                 <Phone className="mr-2 h-5 w-5" />
                 Jetzt anrufen
               </a>

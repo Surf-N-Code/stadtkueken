@@ -89,8 +89,6 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     "aria-live": ariaLive,
     ...props 
   }, ref) => {
-    const Comp = asChild ? Slot : "button"
-    
     // Determine if button should be disabled
     const isDisabled = disabled || loading
     
@@ -113,8 +111,21 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       ariaAttributes["aria-label"] = `${children} (loading)`
     }
 
+    if (asChild) {
+      return (
+        <Slot
+          className={cn(buttonVariants({ variant, size, className }))}
+          ref={ref}
+          {...ariaAttributes}
+          {...props}
+        >
+          {children}
+        </Slot>
+      )
+    }
+
     return (
-      <Comp
+      <button
         className={cn(buttonVariants({ variant, size, className }))}
         ref={ref}
         disabled={isDisabled}
@@ -145,7 +156,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           </svg>
         )}
         {buttonContent}
-      </Comp>
+      </button>
     )
   }
 )

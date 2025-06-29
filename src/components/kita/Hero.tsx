@@ -82,14 +82,6 @@ export const KitaHero = ({
             <SmoothScrollButton 
               targetId={contactId}
               className="bg-stadtkueken-orange hover:bg-stadtkueken-orange-dark text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 hover-lift h-11"
-              aria-label="Buche eine Besichtigung"
-              aria-describedby="Buche eine Besichtigung"
-              aria-expanded={false}
-              aria-pressed={false}
-              aria-controls="contact"
-              aria-live="polite"
-              aria-busy={false}
-              aria-disabled={false}
             >
               Besichtigung buchen
             </SmoothScrollButton>
@@ -98,16 +90,19 @@ export const KitaHero = ({
               size="lg"
               asChild
               className="border-2 border-white text-stadtkueken-brown hover:bg-white hover:text-stadtkueken-brown px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 bg-white"
-              aria-label="Ruf uns an"
-              aria-describedby="Ruf uns an"
-              aria-expanded={false}
-              aria-pressed={false}
-              aria-controls="contact"
-              aria-live="polite"
-              aria-busy={false}
-              aria-disabled={false}
             >
-              <a href={`tel:${phoneNumber}`}>
+              <a 
+                href={`tel:${phoneNumber}`}
+                className="flex items-center"
+                aria-label="Ruf uns an"
+                aria-describedby="Ruf uns an"
+                aria-expanded={false}
+                aria-pressed={false}
+                aria-controls="contact"
+                aria-live="polite"
+                aria-busy={false}
+                aria-disabled={false}
+              >
                 <Phone className="mr-2 h-5 w-5" />
                 Jetzt anrufen
               </a>

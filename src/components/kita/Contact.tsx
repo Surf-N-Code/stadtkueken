@@ -143,16 +143,21 @@ export const KitaContact = ({
                 size="lg"
                 className="bg-stadtkueken-orange hover:bg-stadtkueken-orange-dark text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 hover-lift w-full"
                 asChild
-                aria-label="Buche einen Termin über Calendly"
-                aria-describedby="Buche einen Termin über Calendly"
-                aria-expanded={false}
-                aria-pressed={false}
-                aria-controls="calendly-widget"
-                aria-live="polite"
-                aria-busy={false}
-                aria-disabled={false}
               >
-                <a href="https://calendly.com/stadtkueken" target="_blank" rel="noopener noreferrer">
+                <a 
+                  href="https://calendly.com/stadtkueken" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center"
+                  aria-label="Buche einen Termin über Calendly"
+                  aria-describedby="Buche einen Termin über Calendly"
+                  aria-expanded={false}
+                  aria-pressed={false}
+                  aria-controls="contact"
+                  aria-live="polite"
+                  aria-busy={false}
+                  aria-disabled={false}
+                >
                   <Calendar className="mr-2 h-5 w-5" />
                   Online Termin buchen
                 </a>
