@@ -59,14 +59,14 @@ export const KitaMap = ({
               
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-stadtkueken-brown mb-2">Öffentliche Verkehrsmittel</h4>
+                  <p className="font-amatic font-semibold text-xl text-stadtkueken-brown mb-2">Öffentliche Verkehrsmittel</p>
                   <p className="text-gray-600 text-sm">
                     {publicTransport}
                   </p>
                 </div>
                 
                 <div>
-                  <h4 className="font-semibold text-stadtkueken-brown mb-2">Parkmöglichkeiten</h4>
+                  <p className="font-amatic font-semibold text-xl text-stadtkueken-brown mb-2">Parkmöglichkeiten</p>
                   <p className="text-gray-600 text-sm">
                     {parking}
                   </p>

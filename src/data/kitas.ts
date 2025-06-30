@@ -55,8 +55,8 @@ export const kitaData: KitaData[] = [
     name: "Kita Lohbekpark Lokstedt",
     location: "Lokstedt",
     metadata: {
-      title: "Kita Lohbekpark Hamburg-Lokstedt | Stadtküken Natur-Kita | Achtsamkeit & Natur",
-      description: "Kita Lohbekpark in Hamburg-Lokstedt: Naturnahe Betreuung für 65 Kinder (10 Monate - 6 Jahre). Achtsamkeit, gesunde Ernährung & Partizipation. Jetzt Kitaplatz anfragen! ☎ 040/3289012-18",
+      title: "Stadtküken Kita Lohbekpark-Lokstedt | Achtsamkeit & Natur",
+      description: "Kita Lohbekpark in Hamburg-Lokstedt: Naturnahe Betreuung für 65 Kinder (10 Monate - 6 Jahre). Achtsamkeit, gesunde Ernährung & Partizipation.",
       keywords: "Kita Lohbekpark, Kita Hamburg Lokstedt, Natur-Kita Hamburg, Stadtküken, Kitaplatz Hamburg, Achtsamkeit Kinder, Naturpädagogik, Kita Gutschein Hamburg, Kinderbetreuung Lokstedt, Lohkoppelweg",
       openGraph: {
         title: "Kita Lohbekpark Hamburg-Lokstedt | Stadtküken Natur-Kita",

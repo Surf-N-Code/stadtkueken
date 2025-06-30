@@ -52,9 +52,9 @@ export const KitaTeam = ({
             </div>
             
             <div className="text-center lg:text-left">
-              <h3 className="text-3xl font-bold text-stadtkueken-brown mb-2 font-amatic">
+              <p className="text-3xl font-bold text-stadtkueken-brown mb-2 font-amatic">
                 {teamMember.name}
-              </h3>
+              </p>
               <p className="text-xl text-stadtkueken-orange font-semibold mb-6">
                 {teamMember.title}
               </p>

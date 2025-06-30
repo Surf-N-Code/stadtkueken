@@ -58,7 +58,7 @@ export const KitaContact = ({
                     <MapPin className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-stadtkueken-brown mb-1">Adresse</h4>
+                    <p className="font-amatic font-bold text-xl text-stadtkueken-brown mb-1">Adresse</p>
                     <p className="text-gray-700">
                       Stadtküken Kita {name}<br />
                       {address}<br />
@@ -72,7 +72,7 @@ export const KitaContact = ({
                     <Clock className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-stadtkueken-brown mb-1">Öffnungszeiten</h4>
+                    <p className="font-amatic font-bold text-xl text-stadtkueken-brown mb-1">Öffnungszeiten</p>
                     <p className="text-gray-700">
                       {openingHours}
                     </p>
@@ -84,7 +84,7 @@ export const KitaContact = ({
                     <Users className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-stadtkueken-brown mb-1">Gruppen</h4>
+                    <p className="font-amatic font-bold text-xl text-stadtkueken-brown mb-1">Gruppen</p>
                     <p className="text-gray-700">
                       {groups}
                     </p>
@@ -96,7 +96,7 @@ export const KitaContact = ({
                     <Phone className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-stadtkueken-brown mb-1">Telefon</h4>
+                    <p className="font-amatic font-bold text-xl text-stadtkueken-brown mb-1">Telefon</p>
                     <a href={`tel:${phoneNumber}`} className="text-stadtkueken-orange hover:underline">
                       {phoneNumber}
                     </a>
@@ -108,7 +108,7 @@ export const KitaContact = ({
                     <Mail className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-stadtkueken-brown mb-1">E-Mail</h4>
+                    <p className="font-amatic font-bold text-xl text-stadtkueken-brown mb-1">E-Mail</p>
                     <span className="text-stadtkueken-orange hover:underline">
                       {email}
                     </span>

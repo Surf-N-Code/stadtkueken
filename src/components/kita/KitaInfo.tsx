@@ -91,9 +91,9 @@ export const KitaInfo = ({
             <div className="w-16 h-16 bg-stadtkueken-green rounded-full flex items-center justify-center mx-auto mb-4">
               <Leaf className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
+            <p className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
               {activities.title}
-            </h3>
+            </p>
             <p className="text-gray-700">
               {activities.description}
             </p>
@@ -103,9 +103,9 @@ export const KitaInfo = ({
             <div className="w-16 h-16 bg-stadtkueken-orange rounded-full flex items-center justify-center mx-auto mb-4">
               <Utensils className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
+            <p className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
               {nutrition.title}
-            </h3>
+            </p>
             <p className="text-gray-700">
               {nutrition.description}
             </p>
@@ -115,9 +115,9 @@ export const KitaInfo = ({
             <div className="w-16 h-16 bg-stadtkueken-brown rounded-full flex items-center justify-center mx-auto mb-4">
               <Sprout className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
+            <p className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
               {garden.title}
-            </h3>
+            </p>
             <p className="text-gray-700">
               {garden.description}
             </p>
@@ -134,7 +134,7 @@ export const KitaInfo = ({
               <div className="w-12 h-12 bg-stadtkueken-orange rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="h-6 w-6 text-white" />
               </div>
-              <h4 className="font-bold text-stadtkueken-brown mb-2">Achtsamkeit</h4>
+              <p className="font-amatic text-xl font-bold text-stadtkueken-brown mb-2">Achtsamkeit</p>
               <p className="text-gray-700 text-sm">
                 {values.mindfulness}
               </p>
@@ -143,7 +143,7 @@ export const KitaInfo = ({
               <div className="w-12 h-12 bg-stadtkueken-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <Leaf className="h-6 w-6 text-white" />
               </div>
-              <h4 className="font-bold text-stadtkueken-brown mb-2">Natur</h4>
+              <p className="font-amatic text-xl font-bold text-stadtkueken-brown mb-2">Natur</p>
               <p className="text-gray-700 text-sm">
                 {values.nature}
               </p>
@@ -152,7 +152,7 @@ export const KitaInfo = ({
               <div className="w-12 h-12 bg-stadtkueken-brown rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="h-6 w-6 text-white" />
               </div>
-              <h4 className="font-bold text-stadtkueken-brown mb-2">Partizipation</h4>
+              <p className="font-amatic text-xl font-bold text-stadtkueken-brown mb-2">Partizipation</p>
               <p className="text-gray-700 text-sm">
                 {values.participation}
               </p>

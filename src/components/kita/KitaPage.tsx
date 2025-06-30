@@ -21,7 +21,7 @@ export const KitaPage = ({ kitaData }: KitaPageProps) => {
         <Header />
         <KitaHero {...kitaData.hero} />
         <KitaInfo {...kitaData.info} />
-        <KitaGallery {...kitaData.gallery} />
+        <KitaGallery {...kitaData.gallery} name={kitaData.name} />
         <KitaTeam {...kitaData.team} />
         <KitaGoogleReviews {...kitaData.reviews} />
         <KitaMap {...kitaData.map} />

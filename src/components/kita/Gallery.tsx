@@ -10,6 +10,7 @@ export interface GalleryImage {
 
 export interface KitaGalleryProps {
   title: string;
+  name: string;
   subtitle: string;
   images: GalleryImage[];
   roomsTitle: string;
@@ -20,6 +21,7 @@ export interface KitaGalleryProps {
 
 export const KitaGallery = ({
   title,
+  name,
   subtitle,
   images,
   roomsTitle,
@@ -42,7 +44,7 @@ export const KitaGallery = ({
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-stadtkueken-brown mb-4 font-amatic">
-            {title}
+            {title} - <span className="text-stadtkueken-orange">{name.replace("Kita ", "")}</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             {subtitle}
@@ -111,18 +113,18 @@ export const KitaGallery = ({
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
           <div className="bg-white rounded-2xl p-8 shadow-lg">
-            <h3 className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
+            <p className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
               {roomsTitle}
-            </h3>
+            </p>
             <p className="text-gray-700 mb-4">
               {roomsDescription}
             </p>
           </div>
           
           <div className="bg-white rounded-2xl p-8 shadow-lg">
-            <h3 className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
+            <p className="text-2xl font-bold text-stadtkueken-brown mb-4 font-amatic">
               {outdoorTitle}
-            </h3>
+            </p>
             <p className="text-gray-700 mb-4">
               {outdoorDescription}
             </p>

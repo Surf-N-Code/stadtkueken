@@ -108,9 +108,9 @@ export const KitaGoogleReviews = ({
                       )}
                     </div>
                     <div className="flex-1 min-w-0">
-                      <h3 className="font-semibold text-stadtkueken-brown truncate">
+                      <p className="font-amatic text-lg font-semibold text-stadtkueken-brown truncate">
                         {review.authorAttribution.displayName}
-                      </h3>
+                      </p>
                       <div className="flex items-center space-x-2 mb-1">
                         {renderStars(review.rating)}
                         <span className="text-sm text-gray-500">
@@ -144,9 +144,9 @@ export const KitaGoogleReviews = ({
                     )}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h3 className="font-semibold text-stadtkueken-brown truncate">
+                    <p className="font-amatic text-lg font-semibold text-stadtkueken-brown truncate">
                       {review.authorAttribution.displayName}
-                    </h3>
+                    </p>
                     <div className="flex items-center space-x-2 mb-1">
                       {renderStars(review.rating)}
                       <span className="text-sm text-gray-500">
