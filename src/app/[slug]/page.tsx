@@ -1,4 +1,4 @@
-import { KitaPage as KitaPageComponent } from "@/components/kita/KitaPage";
+import { KitaPage as KitaPageComponent } from "@/components/KitaPage";
 import { getKitaData, getAllKitaIds } from "@/data/kitas";
 import type { Metadata } from "next";
 

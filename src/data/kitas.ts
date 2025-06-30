@@ -1,11 +1,11 @@
 import type { KitaSchemaData } from "@/types/kita";
-import type { KitaHeroProps } from "@/components/kita/Hero";
-import type { KitaInfoProps } from "@/components/kita/KitaInfo";
-import type { KitaContactProps } from "@/components/kita/Contact";
-import type { KitaGalleryProps, GalleryImage } from "@/components/kita/Gallery";
-import type { KitaTeamProps, TeamMember } from "@/components/kita/Team";
-import type { KitaMapProps } from "@/components/kita/Map";
-import type { KitaGoogleReviewsProps, ReviewData } from "@/components/kita/GoogleReviews";
+import type { KitaHeroProps } from "@/components/Hero";
+import type { KitaInfoProps } from "@/components/KitaInfo";
+import type { KitaContactProps } from "@/components/Contact";
+import type { KitaGalleryProps, GalleryImage } from "@/components/Gallery";
+import type { KitaTeamProps, TeamMember } from "@/components/Team";
+import type { KitaMapProps } from "@/components/Map";
+import type { KitaGoogleReviewsProps, ReviewData } from "@/components/GoogleReviews";
 
 export interface KitaMetadata {
   title: string;
@@ -106,7 +106,7 @@ export const kitaData: KitaData[] = [
     hero: {
       name: "Lohbekpark",
       location: "Lokstedt",
-      subtitle: "Willkommen in der Kita Lohbekpark in Lokstedt",
+      subtitle: "Willkommen in der Stadtküken Kita Lohbekpark in Hamburg-Lokstedt",
       backgroundImage: "https://stadtkueken.de/wp-content/uploads/240130_Lohbekpark_F.jpg",
       childrenCount: 65,
       ageRange: "10 Monate - 6 Jahre",
@@ -120,7 +120,7 @@ export const kitaData: KitaData[] = [
     info: {
       name: "Lohbekpark",
       location: "Lokstedt",
-      description: "Seit November 2024 heißen wir in unserer neuen Kita in Hamburg-Lokstedt rund 65 kleine Küken im Alter von einem bis sechs Jahren willkommen. Unser einzigartiges Konzept verbindet Natur, Achtsamkeit und Partizipation zu einem Ort, an dem Kinder in einer warmen, wertschätzenden Atmosphäre spielen, lernen und wachsen können.",
+      description: "Seit November 2024 heißen wir in unserer neuen Kita Lohbekpark-Lokstedt in Hamburg rund 65 kleine Küken im Alter von einem bis sechs Jahren willkommen. Unser einzigartiges Konzept verbindet Natur, Achtsamkeit und Partizipation zu einem Ort, an dem Kinder in einer warmen, wertschätzenden Atmosphäre spielen, lernen und wachsen können.",
       paragraph1: "Die hellen, neu gestalteten Räume laden zum Wohlfühlen ein, während der liebevoll angelegte naturnahe Außenbereich den perfekten Rückzugsort mitten in der Stadt bietet. Hier können Kinder die Natur entdecken, Abenteuer erleben und einfach Kind sein.",
       paragraph2: "Unser engagiertes pädagogisches Team begleitet jedes Kind individuell und mit Herz. Mit einem achtsamen Blick auf die Bedürfnisse der Kinder schaffen wir Raum für Entfaltung und stärken sie auf ihrem Weg zu selbstbewussten und kreativen Persönlichkeiten.",
       quote: "Wir ermutigen unsere Kinder dazu in sich hineinzuhören, Gefühle nicht zu verdrängen, sondern aktiv wahrzunehmen, zu benennen und sie einzusortieren.",

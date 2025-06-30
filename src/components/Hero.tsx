@@ -1,54 +1,89 @@
 import { Button } from "@/components/ui/button";
 import { SmoothScrollButton } from "@/components/SmoothScrollButton";
-import { Phone, Download, Award, Leaf, CreditCard } from "lucide-react";
+import { Phone, MapPin, Clock, Users } from "lucide-react";
 
-export const Hero = () => {
+export interface KitaHeroProps {
+  name: string;
+  location: string;
+  subtitle: string;
+  backgroundImage: string;
+  childrenCount: number;
+  ageRange: string;
+  address: string;
+  postalCode: string;
+  city: string;
+  openingHours: string;
+  sinceDate: string;
+  phoneNumber: string;
+  contactId?: string;
+}
+
+export const KitaHero = ({
+  name,
+  location,
+  subtitle,
+  backgroundImage,
+  childrenCount,
+  ageRange,
+  address,
+  postalCode,
+  city,
+  openingHours,
+  sinceDate,
+  phoneNumber,
+  contactId = "contact"
+}: KitaHeroProps) => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://stadtkueken.de/wp-content/uploads/Stadtkueken-kita-hamburg-image-33.jpg')"
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('${backgroundImage}')`
         }}
       />
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-12 text-balance leading-tight font-amatic pt-24 md:pt-0">
-            Wir geben Kindern <span className="text-stadtkueken-orange">Seelenproviant</span>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight font-amatic pt-20 md:pt-0">
+            Kita <span className="text-stadtkueken-orange">{name}</span> {location}
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light text-balance">
-            achtsam, natürlich & mitten in Hamburg.
+            {subtitle}
           </p>
           
-          {/* USP Bulletlines */}
+          {/* Kita Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 text-left max-w-3xl mx-auto">
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4">
-              <div className="text-lg font-semibold mb-1">8 Standorte</div>
-              <div className="text-sm opacity-90">{'>'} 600 glückliche Küken</div>
+              <div className="text-lg font-semibold mb-1 flex items-center">
+                <Users className="h-5 w-5 mr-2" />
+                {childrenCount} Kinder
+              </div>
+              <div className="text-sm opacity-90">{ageRange}</div>
             </div>
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4">
               <div className="text-lg font-semibold mb-1 flex items-center">
-                <Leaf className="h-5 w-5 mr-2" />
-                Natur-Kita
+                <MapPin className="h-5 w-5 mr-2" />
+                {address}
               </div>
-              <div className="text-sm opacity-90">mit eigenem Gemüseacker</div>
+              <div className="text-sm opacity-90">{postalCode} {city}</div>
             </div>
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4">
-              <div className="text-lg font-semibold mb-1">Kita-Gutschein</div>
-              <div className="text-sm opacity-90">Elternanteil ab 0 €</div>
+              <div className="text-lg font-semibold mb-1 flex items-center">
+                <Clock className="h-5 w-5 mr-2" />
+                {openingHours}
+              </div>
+              <div className="text-sm opacity-90">Seit {sinceDate}</div>
             </div>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
             <SmoothScrollButton 
-              targetId="lead-magnet"
+              targetId={contactId}
               className="bg-stadtkueken-orange hover:bg-stadtkueken-orange-dark text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 hover-lift h-11"
             >
-              <Download className="mr-2 h-5 w-5" />
-              Kostenloses Infopaket sichern
+              Besichtigung buchen
             </SmoothScrollButton>
             <Button 
               variant="outline"
@@ -57,7 +92,7 @@ export const Hero = () => {
               className="border-2 border-white text-stadtkueken-brown hover:bg-white hover:text-stadtkueken-brown px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 bg-white"
             >
               <a 
-                href="tel:04032890120" 
+                href={`tel:${phoneNumber}`}
                 className="flex items-center"
                 aria-label="Ruf uns an"
                 aria-describedby="Ruf uns an"
@@ -73,22 +108,6 @@ export const Hero = () => {
               </a>
             </Button>
           </div>
-
-          {/* Trust Badges */}
-          <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm">
-            <div className="flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2">
-              <Award className="h-4 w-4" />
-              <span>SunPass Kita</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2">
-              <Leaf className="h-4 w-4" />
-              <span>DGE-Ernährung</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2">
-              <CreditCard className="h-4 w-4" />
-              <span>Ackerracker-Partner</span>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -100,4 +119,4 @@ export const Hero = () => {
       </div>
     </section>
   );
-};
+}; 

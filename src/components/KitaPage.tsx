@@ -1,13 +1,13 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { KitaHero } from "@/components/kita/Hero";
-import { KitaInfo } from "@/components/kita/KitaInfo";
-import { KitaGallery } from "@/components/kita/Gallery";
-import { KitaTeam } from "@/components/kita/Team";
-import { KitaGoogleReviews } from "@/components/kita/GoogleReviews";
-import { KitaMap } from "@/components/kita/Map";
-import { KitaContact } from "@/components/kita/Contact";
-import { KitaLayout } from "@/components/kita/KitaLayout";
+import { KitaHero } from "@/components/Hero";
+import { KitaInfo } from "@/components/KitaInfo";
+import { KitaGallery } from "@/components/Gallery";
+import { KitaTeam } from "@/components/Team";
+import { KitaGoogleReviews } from "@/components/GoogleReviews";
+import { KitaMap } from "@/components/Map";
+import { KitaContact } from "@/components/Contact";
+import { KitaLayout } from "@/components/KitaLayout";
 import type { KitaData } from "@/data/kitas";
 
 export interface KitaPageProps {
