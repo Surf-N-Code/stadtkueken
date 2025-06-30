@@ -51,7 +51,7 @@ export interface KitaData {
 
 export const kitaData: KitaData[] = [
   {
-    id: "lohbekpark",
+    id: "lohbekpark-lokstedt",
     name: "Kita Lohbekpark Lokstedt",
     location: "Lokstedt",
     metadata: {
@@ -226,55 +226,120 @@ export const kitaData: KitaData[] = [
       title: "Was Eltern über uns sagen",
       subtitle: "Echte Bewertungen von Eltern aus unserer Kita-Gemeinschaft",
       reviewData: {
-        "formattedAddress": "Lokstedter Steindamm 51, 22529 Hamburg, Germany",
+        "formattedAddress": "Lohkoppelweg 35b, 22529 Hamburg, Germany",
+        "userRatingCount": 7,
         "displayName": {
-          "text": "Kinderstadt Kita Lokstedt",
+          "text": "Stadtküken Kita Lohbekpark",
           "languageCode": "de"
         },
-        "userRatingCount": 7,
         "reviews": [
           {
-            "name": "places/ChIJvx6dfqWIsUcR2kaTyyToP8U/reviews/ChdDSUhNMG9nS0VJQ0FnSUNHbTktZW5RRRAB",
-            "relativePublishTimeDescription": "3 years ago",
+            "name": "places/ChIJ87PDpomHsUcROSsHEHfOCsg/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tWaFptNUtWR2RrT1RscVN6UkpSMlpmYVV4M1RFRRAB",
+            "relativePublishTimeDescription": "a week ago",
             "rating": 5,
             "text": {
-              "text": "We changed our kita when our son was almost 2 years old and its been a good 9 months he has learned a lot of things and he loves to go to the kita 😊. Kita Leitung is really nice and all the people here are wonderful .",
-              "languageCode": "en"
-            },
-            "originalText": {
-              "text": "We changed our kita when our son was almost 2 years old and its been a good 9 months he has learned a lot of things and he loves to go to the kita 😊. Kita Leitung is really nice and all the people here are wonderful .",
-              "languageCode": "en"
-            },
-            "authorAttribution": {
-              "displayName": "Nitin Bhatia",
-              "uri": "https://www.google.com/maps/contrib/102426340739658140203/reviews",
-              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIf9rbLzmVLRHKi6aPhvq7kse6v0xNvnFhLzSqkT4_r6cAutNg=s128-c0x00000000-cc-rp-mo-ba4"
-            },
-            "publishTime": "2021-11-10T07:57:40.937705Z",
-            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNHbTktZW5RRRAB!2m1!1s0x47b188a57e9d1ebf:0xc53fe824cb9346da"
-          },
-          {
-            "name": "places/ChIJvx6dfqWIsUcR2kaTyyToP8U/reviews/ChZDSUhNMG9nS0VJQ0FnSUNual82bE1REAE",
-            "relativePublishTimeDescription": "9 months ago",
-            "rating": 5,
-            "text": {
-              "text": "Our child has loved going to daycare here for 2 1/2 years. We started in the crèche and have now been in elementary school for a year. The familiarization takes place between the groups by the educators. They are very warm and attentive both in the crèche area and with the Ele children. In addition, the teachers are very consistent at the daycare, which is great for the children.\n\nI would particularly like to emphasize the commitment of the educators when it comes to offering excursions and events. Every week is an excursion day and no effort is spared here. More distant adventure playgrounds, farms, puppet theaters, circuses, zoos, miniature wonderlands and much more have already been done. There are also always festivals or daycare overnight stays.\n\nThe lunch offered is varied and balanced. The popular children's classics can also be found on the menu every now and then.\n\nWe are very satisfied and therefore give it 5 stars.",
+              "text": "We are incredibly grateful for this wonderful daycare center. The entire team—from the management to the teachers—is not only professional, but also impressive on a human level. There's a loving, secure atmosphere where you can feel the children's well-being is paramount.\n\nAs a parent, it's not easy to leave your 13-month-old child in the care of strangers—but here, it feels just right. Communication via the CARE app, the whiteboard with information about food, sleep, and the daily routine, as well as the lovingly designed \"Weekly News\" with photos and activities give us a good feeling every day and a real insight into everyday daycare life.\n\nWe particularly enjoy the many moments of nature outside in the garden and sandbox area—where our child discovers the world with joy and curiosity.\n\nConversations with the team are always open, warm, and at eye level. You can feel that the people working here not only do a great job, but are there for the children with optimism, empathy, and genuine warmth.\n\nConclusion: An all-round fantastic facility that we can highly recommend.",
               "languageCode": "en-US"
             },
             "originalText": {
-              "text": "Unser Kind geht seit 2 1/2 Jahren hier sehr gerne zur Kita. Wir sind in der Krippe gestartet und inzwischen seit einem Jahr im Elementarbereich. Die Eingewöhnung geschieht hier zwischen den Gruppen durch die Erzieher. Diese sind sowohl im Krippenbereich, als auch bei den Ele-Kindern sehr herzlich und zugewandt. Zudem sind die Erzieher sehr beständig in der Kita, was für die Kinder toll ist.\n\nBesonders hervorheben möchte ich das Engagement der Erzieher was das Angebot an Ausflügen und Veranstaltungen angeht. Jede Woche ist Ausflugstag und hier werden keine Mühen gescheut. Weiter entfernte Abenteuerspielplätze, Bauernhof, Puppentheater, Zirkus, Tierpark, Miniaturwunderland und vieles mehr wurde schon gemacht. Zudem finden auch immer wieder Feste oder Kita-Übernachtungen statt.\n\nDas angebotene Mittagessen ist abwechslungsreich und ausgewogen. Die beliebten Kinderklassiker finden sich aber dann und wann auch im Menü wieder.\n\nWir sind sehr zufrieden und somit gibt es 5 Sterne.",
+              "text": "Wir sind unglaublich dankbar für diese wunderbare Kita. Das gesamte Team – von der Leitung bis zu den Erzieher*innen – ist nicht nur professionell, sondern auch menschlich beeindruckend. Es herrscht eine liebevolle, geborgene Atmosphäre, in der man spürt, wie sehr das Wohl der Kinder im Mittelpunkt steht.\n\nAls Elternteil ist es nicht leicht, sein 13 Monate altes Kind in fremde Hände zu geben – aber hier fühlt es sich genau richtig an. Die Kommunikation über die CARE-App, das Whiteboard mit Infos zu Essen, Schlaf und Tagesverlauf sowie die liebevoll gestalteten „Week News“ mit Fotos und Aktivitäten geben uns jeden Tag ein gutes Gefühl und einen echten Einblick in den Kita-Alltag.\n\nBesonders schön finden wir die vielen Naturmomente draußen im Garten- und Sandkastenbereich – da entdeckt unser Kind mit Freude und Neugier die Welt.\n\nDie Gespräche mit dem Team sind immer offen, herzlich und auf Augenhöhe. Man spürt, dass hier Menschen arbeiten, die nicht nur einen tollen Job machen, sondern mit Optimismus, Einfühlungsvermögen und echter Herzlichkeit für die Kinder da sind.\n\nFazit: Eine rundum fantastische Einrichtung, die wir wärmstens weiterempfehlen können.",
               "languageCode": "de"
             },
             "authorAttribution": {
-              "displayName": "Julia Zeppenfeld",
-              "uri": "https://www.google.com/maps/contrib/103445186435877312814/reviews",
-              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUzfOOgYj_OXF-wvzRrQ1_wGM-YubbuooX1IMhN6rQunWO0YeE=s128-c0x00000000-cc-rp-mo"
+              "displayName": "Adria Millas Luque",
+              "uri": "https://www.google.com/maps/contrib/116494893067914360685/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX8a3NfQbWSiPQFKnOQccDt3ui_ybeMR8hcFGc61madEfzylvw=s128-c0x00000000-cc-rp-mo-ba3"
             },
-            "publishTime": "2024-10-01T07:19:39.605536Z",
-            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNual82bE1REAE!2m1!1s0x47b188a57e9d1ebf:0xc53fe824cb9346da"
+            "publishTime": "2025-06-19T20:23:51.537438413Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tWaFptNUtWR2RrT1RscVN6UkpSMlpmYVV4M1RFRRAB&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tWaFptNUtWR2RrT1RscVN6UkpSMlpmYVV4M1RFRRAB!2m1!1s0x47b18789a6c3b3f3:0xc80ace7710072b39"
+          },
+          {
+            "name": "places/ChIJ87PDpomHsUcROSsHEHfOCsg/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pKR1YzZFFSR1ZGT1haeFdqZzJOa1owVEc5NWFXYxAB",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 5,
+            "text": {
+              "text": "Our child has been attending this daycare for a few months, and we are extremely satisfied. The teachers are warm, dedicated, and create a loving atmosphere.",
+              "languageCode": "en-US"
+            },
+            "originalText": {
+              "text": "Unser Kind geht seit einigen Monaten in diese Kita und wir sind super zufrieden. Die Erzieherinnen sind herzlich, engagiert und schaffen eine liebevolle Atmosphäre",
+              "languageCode": "de"
+            },
+            "authorAttribution": {
+              "displayName": "Julius Ihle",
+              "uri": "https://www.google.com/maps/contrib/117206028104202558662/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLoeEdcEcPmaQynv54vxI8_s9aMdYmtzoZnv5OlD9SASgCGPQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2025-06-17T16:04:05.487643679Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pKR1YzZFFSR1ZGT1haeFdqZzJOa1owVEc5NWFXYxAB&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pKR1YzZFFSR1ZGT1haeFdqZzJOa1owVEc5NWFXYxAB!2m1!1s0x47b18789a6c3b3f3:0xc80ace7710072b39"
+          },
+          {
+            "name": "places/ChIJ87PDpomHsUcROSsHEHfOCsg/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tzMU0wRlRNalJZVDFOMmFIWmxjRzVVUkdkSllXYxAB",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 5,
+            "text": {
+              "text": "A very dedicated team, a great atmosphere, and a well-thought-out concept. Highly recommended!",
+              "languageCode": "en-US"
+            },
+            "originalText": {
+              "text": "Sehr engagiertes Team, tolle Atmosphäre und gut durchdachtes Konzept. Absolut empfehlenswert!",
+              "languageCode": "de"
+            },
+            "authorAttribution": {
+              "displayName": "roonstar23",
+              "uri": "https://www.google.com/maps/contrib/110694832662461925436/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKn7NutLDF1zd5DYARzm0Tn0KOqsfkIImNFAQxUSNDKO5jsLg=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2025-06-17T18:07:07.053708562Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tzMU0wRlRNalJZVDFOMmFIWmxjRzVVUkdkSllXYxAB&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tzMU0wRlRNalJZVDFOMmFIWmxjRzVVUkdkSllXYxAB!2m1!1s0x47b18789a6c3b3f3:0xc80ace7710072b39"
+          },
+          {
+            "name": "places/ChIJ87PDpomHsUcROSsHEHfOCsg/reviews/Ci9DQUlRQUNvZENodHljRjlvT201Wk5EVnRjbXB6WTNGUldVaFRhMlZsU0RGNmRtYxAB",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 5,
+            "text": {
+              "text": "A truly great team! I felt at home right away 😊",
+              "languageCode": "en-US"
+            },
+            "originalText": {
+              "text": "Ein wirklich tolles Team! Habe mich direkt wohl gefühlt 😊",
+              "languageCode": "de"
+            },
+            "authorAttribution": {
+              "displayName": "Kornelia Krupka",
+              "uri": "https://www.google.com/maps/contrib/107450096262631954480/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVst6LIPk6uIa0frhfI8DdyttmEAjI3i5Fqm6LylwhgNmCmeGGOug=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2025-06-20T02:55:15.095395421Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT201Wk5EVnRjbXB6WTNGUldVaFRhMlZsU0RGNmRtYxAB&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT201Wk5EVnRjbXB6WTNGUldVaFRhMlZsU0RGNmRtYxAB!2m1!1s0x47b18789a6c3b3f3:0xc80ace7710072b39"
+          },
+          {
+            "name": "places/ChIJ87PDpomHsUcROSsHEHfOCsg/reviews/Ci9DQUlRQUNvZENodHljRjlvT25sQmJXZDJTa28xZEhOQmMyMU5MVTFEU25CamVWRRAB",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 5,
+            "text": {
+              "text": "Loving care, great educational concept!",
+              "languageCode": "en-US"
+            },
+            "originalText": {
+              "text": "Liebevolle Betreuung, tolles pädagogisches Konzept!",
+              "languageCode": "de"
+            },
+            "authorAttribution": {
+              "displayName": "Anne",
+              "uri": "https://www.google.com/maps/contrib/103856141342291087138/reviews",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocINXeiKrHRRD9htnfcbWFNA5h_P6pw33DpFbVVpRJf7om7qpQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "publishTime": "2025-06-17T09:33:05.975162428Z",
+            "flagContentUri": "https://www.google.com/local/review/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25sQmJXZDJTa28xZEhOQmMyMU5MVTFEU25CamVWRRAB&d=17924085&t=1",
+            "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25sQmJXZDJTa28xZEhOQmMyMU5MVTFEU25CamVWRRAB!2m1!1s0x47b18789a6c3b3f3:0xc80ace7710072b39"
           }
         ]
-      }
+      }      
     }
   },
   // Example Kita 2 - Altona

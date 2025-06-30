@@ -19,6 +19,7 @@ interface Review {
   };
   publishTime: string;
   googleMapsUri: string;
+  flagContentUri: string;
 }
 
 export interface ReviewData {

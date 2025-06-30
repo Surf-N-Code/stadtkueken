@@ -32,11 +32,6 @@ export const Header = () => {
               className="h-12 w-auto"
               aria-label="Stadtküken Logo"
               aria-describedby="Stadtküken Logo"
-              aria-expanded={false}
-              aria-pressed={false}
-              aria-controls="header"
-              aria-live="polite"
-              aria-busy={false}
             />
           </div>
 
