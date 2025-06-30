@@ -51,6 +51,26 @@ export const metadata: Metadata = {
     "geo.position": "53.551086;9.993682",
     ICBM: "53.551086, 9.993682",
   },
+
+  /* -------- Icons -------- */
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+    other: [
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "192x192",
+        url: "/android-chrome-192x192.png",
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "512x512",
+        url: "/android-chrome-512x512.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
