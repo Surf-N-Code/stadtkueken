@@ -51,7 +51,7 @@ export interface KitaData {
 
 export const kitaData: KitaData[] = [
   {
-    id: "lohbekpark-lokstedt",
+    id: "kita-lohbekpark-lokstedt",
     name: "Kita Lohbekpark Lokstedt",
     location: "Lokstedt",
     metadata: {
